@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="200dp"
     android:elevation="4dp"
-    android:padding="4dp"
-    android:layout_margin="20dp"
+    android:layout_margin="15dp"
     tools:context=".activity.MainActivity">
 
     <RelativeLayout
@@ -18,7 +17,10 @@
             android:id="@+id/viewpager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp" />
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="0dp" />
 
         <com.i3ni.geeknum1.view.ViewPagerIndicator
             android:id="@+id/indicator_line"
